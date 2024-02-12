@@ -38,14 +38,14 @@ https://skentertainmentapp-90ecc4.netlify.app/
 
 **Getting Started**
 ---
-If you need any help, you can clone this project
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-## Installation
-
- 
    ```bash
+   Clone the repository:
    git clone https://github.com/sakshikolse/Entertainment-project.git
 
+   Install dependencies:
    npm install
 
+   Run the application:
    npm start
