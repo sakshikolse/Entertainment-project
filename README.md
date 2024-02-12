@@ -44,11 +44,11 @@ If you need any help, you can clone this project
 ```bash
 git clone https://github.com/sakshikolse/Entertainment-project.git
 
-**2 .Install dependencies**:
-```bash
+2 .Install dependencies:
+
 npm install
 
-**3 .Run**:
-```bash
+3 .Run:
+
 npm start
 
