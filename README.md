@@ -9,12 +9,12 @@ Entertainment App is a comprehensive web application designed to provide users w
 ---
 ## Visit the website
 
-[Visit the website](https://skentertainmentapp-90ecc4.netlify.app/)
+https://skentertainmentapp-90ecc4.netlify.app/
 
 ---
 
 
-**Features**
+## Features
 
 - Movie Catalog: Explore an extensive collection of movies with in-depth details.
 - User Authentication: Register and log in to access personalized features.
@@ -24,7 +24,7 @@ Entertainment App is a comprehensive web application designed to provide users w
 
 ---
 
-**Technologies Used**
+## Technologies Used
 
 - React: Front-end JavaScript library for building a dynamic user interface.
 - HTML:Standard markup language for creating the structure and content of web pages.
