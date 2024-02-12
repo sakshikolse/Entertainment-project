@@ -1,6 +1,6 @@
 # Entertainment App
 
--
+
 
 **Overview**
 
@@ -9,7 +9,6 @@ Entertainment App is a comprehensive web application designed to provide users w
 **Visit the website**:
 https://skentertainmentapp-90ecc4.netlify.app/
 
----
 
 **Features**
 
