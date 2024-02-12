@@ -40,10 +40,15 @@ https://skentertainmentapp-90ecc4.netlify.app/
 ---
 If you need any help, you can clone this project
 
-**1.Clone the repository**:
+**1 .Clone the repository**:
 ```bash
 git clone https://github.com/sakshikolse/Entertainment-project.git
 
+**2 .Install dependencies**:
+```bash
+npm install
 
-
+**3 .Run**:
+```bash
+npm start
 
