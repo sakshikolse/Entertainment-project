@@ -1,0 +1,64 @@
+/* Styling for the main container of the BookmarkedPage */
+.bookmarked-page {
+    background-color:  #282c34;
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Styling for individual bookmarked movie items */
+  .bookmarked-movie {
+    margin-bottom: 20px;
+  
+  }
+  
+  /* Styling for paragraphs inside bookmarked movie items */
+  .bookmarked-movie p {
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for images inside bookmarked movie items */
+ .bookmarked-movie img {
+    max-width: 200px;
+    height: auto;
+  }
+
+  
+/* Grid layout for displaying bookmarked movies */
+  .bookmarked-movies {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px; 
+  }
+
+/* Grid layout for displaying bookmarked TV series */
+  .bookmarked-series{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 20px; 
+  }
+
+  /* Styling for individual bookmarked TV series items */
+  .bookmarked-series-item{
+    margin-bottom: 20px;
+  
+  }
+  
+  
+/* Styling for paragraphs inside bookmarked TV series items */
+  .bookmarked-series-item p {
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for images inside bookmarked TV series items */
+  .bookmarked-series-item img {
+    max-width: 200px;
+    height: auto;
+  }
+
+
+  /* Styling for images within the parent container of bookmarked items */
+  .bookmarked-cards img {
+    width: 90%;
+    height: 80%;
+    border-radius: 8px;
+  }
