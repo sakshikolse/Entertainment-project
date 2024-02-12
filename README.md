@@ -1,15 +1,13 @@
-
-
 # Entertainment App
 
 ---
 
-**Overview**
+#Overview
 
-Entertainment App is a web application that offers users the opportunity to explore and enjoy a diverse range of movies. The platform provides an intuitive interface for users to discover movies, view detailed information, and watch trailers. Additionally, the application incorporates user authentication, bookmarking of favorite movies, and personalized recommendations.
+Entertainment App is a comprehensive web application designed to provide users with a seamless and immersive entertainment experience.Entertainment App is a web application that offers users the opportunity to explore and enjoy a diverse range of movies. The platform provides an intuitive interface for users to discover movies, view detailed information, and watch trailers. Additionally, the application incorporates user authentication, bookmarking of favorite movies, and personalized recommendations.
 
 Visit the website:
-https://entertainment-app-green.vercel.app/
+https://skentertainmentapp-90ecc4.netlify.app/
 
 ---
 
@@ -26,19 +24,24 @@ https://entertainment-app-green.vercel.app/
 **Technologies Used**
 
 - React: Front-end JavaScript library for building a dynamic user interface.
+- HTML:Standard markup language for creating the structure and content of web pages.
+- CSS: CSS framework for building modern and responsive designs.
 - Redux Toolkit: State management for React applications.
-- Tailwind CSS: CSS framework for building modern and responsive designs.
 - Node.js: JavaScript runtime for server-side development.
 - Express.js: Web application framework for building the backend server.
 - MongoDB: NoSQL database for storing user data and preferences.
 - TMDB API: Integration for fetching movie details and trailers.
 - Authentication: Implement user authentication for personalized experiences.
 
----
-
 **Getting Started**
+---
+If you need any help, you can clone this project
 
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+Clone the repository:
 
-1. Clone the repository:
+```bash
+git clone https://github.com/sakshikolse/Entertainment-project.git
+
+
+
 
