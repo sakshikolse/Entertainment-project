@@ -1,0 +1,20 @@
+
+/* Styling for the container holding movie and series cards */
+  .movie-container {
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  gap: 5px; 
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  gap: 20px;
+  padding-bottom: 20px; 
+  padding-left: 3%;
+  padding-right: 3%;
+  
+  }
+  /* Styling for the body */
+  body {
+    background-color:#282c34;
+  }
