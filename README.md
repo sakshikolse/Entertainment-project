@@ -41,10 +41,11 @@ https://skentertainmentapp-90ecc4.netlify.app/
 If you need any help, you can clone this project
 
 ## Installation
- 1 .Clone the repositor:
 
+ 
    ```bash
    git clone https://github.com/sakshikolse/Entertainment-project.git
 
-2.Install dependencies:
-npm insall
+   npm install
+
+   npm start
