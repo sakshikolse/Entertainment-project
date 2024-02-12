@@ -26,15 +26,15 @@ https://skentertainmentapp-90ecc4.netlify.app/
 
 ## Technologies Used
 
-- React: Front-end JavaScript library for building a dynamic user interface.
-- HTML:Standard markup language for creating the structure and content of web pages.
-- CSS: CSS framework for building modern and responsive designs.
-- Redux Toolkit: State management for React applications.
-- Node.js: JavaScript runtime for server-side development.
-- Express.js: Web application framework for building the backend server.
-- MongoDB: NoSQL database for storing user data and preferences.
-- TMDB API: Integration for fetching movie details and trailers.
-- Authentication: Implement user authentication for personalized experiences.
+- **React**: Front-end JavaScript library for building a dynamic user interface.
+- **HTML**:Standard markup language for creating the structure and content of web pages.
+- **CSS**: CSS framework for building modern and responsive designs.
+- **Redux Toolkit**: State management for React applications.
+- **Node.js**: JavaScript runtime for server-side development.
+- **Express.js**: Web application framework for building the backend server.
+- **MongoDB**: NoSQL database for storing user data and preferences.
+- **TMDB API**: Integration for fetching movie details and trailers.
+- **Authentication**: Implement user authentication for personalized experiences.
 
 **Getting Started**
 ---
