@@ -1,12 +1,12 @@
 
 
+
 ## Authentication
 To access protected endpoints, you need to include your API key in the request headers.
 
+
 Authorization: Bearer YOUR_API_KEY
 Replace YOUR_API_KEY with your actual API key.
-
----
 
 ## Movie API Documentation
 
@@ -40,9 +40,6 @@ Replace YOUR_API_KEY with your actual API key.
   
 ]
 
-To access protected endpoints, include your API key in the request headers.
-
----
 
 ### Get a Specific Movie by ID
 
@@ -62,9 +59,6 @@ To access protected endpoints, include your API key in the request headers.
   "year": 1994,
   "genre": "Drama"
 }
-To access protected endpoints, include your API key in the request headers.
-
----
 
 ### Get All Bookmarked Movies
 - Endpoint: GET /api/bookmarked
@@ -72,10 +66,6 @@ To access protected endpoints, include your API key in the request headers.
 - Response:
   - Status: 200 OK
   - Body: Array of movie objects
-
-To access protected endpoints, include your API key in the request headers.
-
----
 
 ### Toggle Bookmark Status
 - Endpoint: PUT /api/movies/:id/bookmark
@@ -86,9 +76,8 @@ To access protected endpoints, include your API key in the request headers.
   - Status: 200 OK
   - Body: Updated movie object with the new bookmark status
 
-To access protected endpoints, include your API key in the request headers.
 
----
+
 
 ## TV Series API Documentation
 
@@ -121,10 +110,6 @@ To access protected endpoints, include your API key in the request headers.
   }
   // More TV series objects...
 ]
-To access protected endpoints, include your API key in the request headers.
-
----
-
 ### Get a Specific TV Series by ID
 - Endpoint: GET /api/tvseries/:id
 - Description: Returns details of a specific TV series identified by its ID.
@@ -143,9 +128,6 @@ To access protected endpoints, include your API key in the request headers.
     "genre": "Drama"
   }
 ]
-To access protected endpoints, include your API key in the request headers.
-
----
 
 ### Get All Bookmarked TV Series
 - Endpoint: GET /api/tvseries/bookmarked
@@ -153,10 +135,6 @@ To access protected endpoints, include your API key in the request headers.
 - Response:
   - Status: 200 OK
   - Body: Array of TV series objects
-
-To access protected endpoints, include your API key in the request headers.
-
----
 
 ### Toggle Bookmark Status for TV Series
 - Endpoint: PUT /api/tvseries/:id/bookmark
@@ -167,9 +145,10 @@ To access protected endpoints, include your API key in the request headers.
   - Status: 200 OK
   - Body: Updated TV series object with the new bookmark status
 
-To access protected endpoints, include your API key in the request headers.
 
----
+
+
+
 
 ## Authentication API Documentation
 
@@ -189,10 +168,6 @@ To access protected endpoints, include your API key in the request headers.
   - Status: 201 Created
   - Body: Message indicating successful registration
 
-To access protected endpoints, include your API key in the request headers.
-
----
-
 ### Login
 - Endpoint: POST /api/auth/login
 - Description: Logs in a user.
@@ -210,7 +185,4 @@ To access protected endpoints, include your API key in the request headers.
   - password (string): Password of the user
 - Response:
   - Status: 200 OK
-  - Body: JWT token for authentication
-
-To access protected endpoints, include your API key in the request headers.
-
+  - Body: JWT token for authentication 
