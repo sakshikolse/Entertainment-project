@@ -2,12 +2,11 @@
 
 
 
-**Overview**
+# Overview
 
+Entertainment App is a comprehensive web application designed to provide users with a seamless and immersive entertainment experience. Entertainment App is a web application that offers users the opportunity to explore and enjoy a diverse range of movies. The platform provides an intuitive interface for users to discover movies, view detailed information, and watch trailers. Additionally, the application incorporates user authentication, bookmarking of favorite movies, and personalized recommendations.
 
-
-Entertainment App is a comprehensive web application designed to provide users with a seamless and immersive entertainment experience.Entertainment App is a web application that offers users the opportunity to explore and enjoy a diverse range of movies. The platform provides an intuitive interface for users to discover movies, view detailed information, and watch trailers. Additionally, the application incorporates user authentication, bookmarking of favorite movies, and personalized recommendations.
-
+---
 **Visit the website**:
 https://skentertainmentapp-90ecc4.netlify.app/
 
