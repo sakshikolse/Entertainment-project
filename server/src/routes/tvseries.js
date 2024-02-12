@@ -1,46 +1,7 @@
-// const express = require('express');
-// const router = express.Router();
-
-// const TVSeries = require('../../models/tv-series');
-
-// // Get all TV series
-// router.get('/', async (req, res) => {
-//   try {
-//     const tvSeries = await TVSeries.find();
-//     res.json(tvSeries);
-//   } catch (error) {
-//     res.status(500).json({ message: error.message });
-//   }
-// });
-
-// // Get a single TV series by ID
-// router.get('/:id', getTVSeries, (req, res) => {
-//   res.json(res.tvSeries);
-// });
-
-
-
-// async function getTVSeries(req, res, next) {
-//   let tvSeries;
-//   try {
-//     tvSeries = await TVSeries.findById(req.params.id);
-//     if (tvSeries == null) {
-//       return res.status(404).json({ message: 'TV series not found' });
-//     }
-//   } catch (error) {
-//     return res.status(500).json({ message: error.message });
-//   }
-
-//   res.tvSeries = tvSeries;
-//   next();
-// }
-
-// module.exports = router;
-
 
 const express = require('express');
 const router = express.Router();
-const TVSeries = require('../../models/tv-series');
+const TVSeries = require('../models/tv-series');
 
 // Get all bookmarked TV series
 router.get('/bookmarked', async (req, res) => {

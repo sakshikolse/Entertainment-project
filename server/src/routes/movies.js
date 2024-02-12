@@ -1,13 +1,10 @@
-
+// Importing express library and creating a router
 const express = require('express');
 const router = express.Router();
+// Importing the Movie model
+const Movie = require('../models/movie');
 
-const Movie = require('../../models/movie');
-
-
-
-
-// Get all movies
+// Route to get all movies
 router.get('/', async (req, res) => {
   try {
     const movies = await Movie.find();
@@ -17,11 +14,12 @@ router.get('/', async (req, res) => {
   }
 });
 
-// Get a single movie by ID
+// Route to get a specific movie by ID
 router.get('/:id', getMovie, (req, res) => {
   res.json(res.movie);
 });
 
+// Route to get all bookmarked movies
 router.get('/api/bookmarked', async (req, res) => {
   try {
     const bookmarkedMovies = await Movie.find({ bookmarked: true });
@@ -32,6 +30,7 @@ router.get('/api/bookmarked', async (req, res) => {
   }
 });
 
+// Route to get all bookmarked movies
 router.put('/api/movies/:id/bookmark', async (req, res) => {
   try {
     const { id } = req.params;
@@ -48,6 +47,7 @@ router.put('/api/movies/:id/bookmark', async (req, res) => {
   }
 });
 
+// Middleware to get a specific movie by ID
 async function getMovie(req, res, next) {
   let movie;
   try {

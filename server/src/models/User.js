@@ -1,58 +1,7 @@
-// // models/User.js
-
-// const mongoose = require('mongoose');
-
-// const userSchema = new mongoose.Schema({
-//   name: {
-//     type: String,
-//     required: true,
-//   },
-//   email: {
-//     type: String,
-//     required: true,
-//     unique: true,
-//   },
-//   password: {
-//     type: String,
-//     required: true,
-//   },
-//   profileImage: String,
-// });
-
-// const User = mongoose.model('User', userSchema);
-
-// module.exports = User;
-// const mongoose = require('mongoose');
-// const bcrypt = require('bcrypt');
-
-// const userSchema = new mongoose.Schema({
-//   email: {
-//     type: String,
-//     required: true,
-//     unique: true,
-//   },
-//   password: {
-//     type: String,
-//     required: true,
-//   },
-// });
-
-// userSchema.pre('save', async function (next) {
-//   const user = this;
-
-//   if (user.isModified('password') || user.isNew) {
-//     const hashedPassword = await bcrypt.hash(user.password, 10);
-//     user.password = hashedPassword;
-//   }
-
-//   next();
-// });
-
-// const User = mongoose.model('User', userSchema);
-
-// module.exports = User;
+// Importing mongoose library for MongoDB object modeling
 const mongoose = require('mongoose');
 
+// Defining a schema for the User model using mongoose.Schema
 const userSchema = new mongoose.Schema({
   name: {
     type: String,
@@ -69,4 +18,5 @@ const userSchema = new mongoose.Schema({
   }
 });
 
+// Exporting the mongoose model 'User' with the defined userSchema
 module.exports = mongoose.model('User', userSchema);
